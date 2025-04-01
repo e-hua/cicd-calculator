@@ -3,7 +3,7 @@ name: Deploying to Github Pages
 on:
   push:
     branches: [main]
-  workflows_dispatch:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
